@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    background-color: #63BAB7;
+    border: 1px solid #444545;
+    border-radius: 5px;
+}
+
+button:hover,
+button:active {
+    background-color: #99DAD8;
+}
+
+#calcContainer {
+    width: 400px;
+    background-color: #444545;
+}
+
+#calcDisplay {
+    text-align: right;
+    color: #B5FFE9;
+    font-size: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+#keypad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#calcButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#operatorButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+#digitContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 38%;
+    justify-content: center;
+}
+
+#sideButtons {
+    float: right;
+}
